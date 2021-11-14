@@ -1,0 +1,5 @@
+A=set(map(int.input('Intruduceti literele mari ale multimii A:').split(',')))
+B=set(map(int.input('Intruduceti literele mari ale multimii B:').split(',')))
+print('a) intersectia multimii A si B', A&B)
+print('b) reuniunea multimii A si B', A|B)
+print('c) diferenta multimii A si B: A/B - {A-B}, B/A - {B-A}')
